@@ -179,5 +179,62 @@ Machine 3 performance at 200kPa/338K.
 ::::
 
 ---
+
+# Machine Capability Assessment
+
+::: {layout-nrow=1}
+
+| Machine | Cp | Cpk |
+|:---|:---|:---|
+| Machine 1 | 2.6528 | 2.0680 |
+| Machine 2 | 1.2532 | 1.0530 |
+| Machine 3 | 2.3828 | 2.1321 |
+
+::: 
+
+---
+
+## Machine 1 Analysis
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Control Chart
+Machine 1 performance at 200kPa/338K.
+Target: 50, USL: 55, LSL: 45.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m1_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Machine 2 Analysis
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Control Chart
+Machine 2 performance at 200kPa/338K.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m2_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+## Machine 3 Analysis
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Control Chart
+Machine 3 performance at 200kPa/338K.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m3_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
