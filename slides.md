@@ -1,27 +1,21 @@
 
 ---
 
-# Process Capability Assessment Summary
+# Machine 1: Control Chart
 
-::: {layout-nrow=1}
-| Machine | Cp | Cpk |
-|:---|:---|:---|
-| Machine 1 | 2.6528 | 2.0680 |
-| Machine 2 | 1.2532 | 1.0530 |
-| Machine 3 | 2.3828 | 2.1321 |
-:::
+<iframe data-src='media/plots/m1_ctrl.html' width='100%' height='550px' style='border:none;'></iframe>
 
 ---
 
-# Machine 1: Distribution Chart
+# Machine 1: Process Capability
 
 ::::::: {.columns}
 ::: {.column width='40%'}
-### Capability Indices
+### Metrics (4 d.p.)
 - **Cp:** 2.6528
 - **Cpk:** 2.0680
 
-The distribution is highly capable and centered.
+Target: 50 | USL: 55 | LSL: 45
 :::
 ::: {.column width='60%'}
 <iframe data-src='media/plots/m1_cap.html' width='100%' height='500px' style='border:none;'></iframe>
@@ -30,15 +24,21 @@ The distribution is highly capable and centered.
 
 ---
 
-# Machine 2: Distribution Chart
+# Machine 2: Control Chart
+
+<iframe data-src='media/plots/m2_ctrl.html' width='100%' height='550px' style='border:none;'></iframe>
+
+---
+
+# Machine 2: Process Capability
 
 ::::::: {.columns}
 ::: {.column width='40%'}
-### Capability Indices
+### Metrics (4 d.p.)
 - **Cp:** 1.2532
 - **Cpk:** 1.0530
 
-Significant spread and centering drift observed.
+Target: 50 | USL: 55 | LSL: 45
 :::
 ::: {.column width='60%'}
 <iframe data-src='media/plots/m2_cap.html' width='100%' height='500px' style='border:none;'></iframe>
@@ -47,15 +47,21 @@ Significant spread and centering drift observed.
 
 ---
 
-# Machine 3: Distribution Chart
+# Machine 3: Control Chart
+
+<iframe data-src='media/plots/m3_ctrl.html' width='100%' height='550px' style='border:none;'></iframe>
+
+---
+
+# Machine 3: Process Capability
 
 ::::::: {.columns}
 ::: {.column width='40%'}
-### Capability Indices
+### Metrics (4 d.p.)
 - **Cp:** 2.3828
 - **Cpk:** 2.1321
 
-Stable performance within specifications.
+Target: 50 | USL: 55 | LSL: 45
 :::
 ::: {.column width='60%'}
 <iframe data-src='media/plots/m3_cap.html' width='100%' height='500px' style='border:none;'></iframe>
