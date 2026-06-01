@@ -236,5 +236,119 @@ Machine 3 performance at 200kPa/338K.
 ::::
 
 ---
+
+# Process Capability: Machine 1
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 1 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 2.6528
+- **Cpk:** 2.0680
+
+Machine 1 shows high precision and is well-centered within the specifications.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m1_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+# Process Capability: Machine 2
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 2 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 1.2532
+- **Cpk:** 1.0530
+
+Machine 2 shows lower capability compared to others, with potential centering drift.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m2_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+# Process Capability: Machine 3
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 3 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 2.3828
+- **Cpk:** 2.1321
+
+Machine 3 is highly capable and maintains excellent stability at the requested parameters.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m3_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+# Process Capability: Machine 1
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 1 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 2.6528
+- **Cpk:** 2.0680
+
+Machine 1 shows high precision and is well-centered within the specifications.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m1_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+# Process Capability: Machine 2
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 2 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 1.2532
+- **Cpk:** 1.0530
+
+Machine 2 shows lower capability compared to others, with potential centering drift.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m2_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+# Process Capability: Machine 3
+
+::::::: {.columns}
+::: {.column width='40%'}
+### Machine 3 Metrics
+**Target: 50 | USL: 55 | LSL: 45**
+
+- **Cp:** 2.3828
+- **Cpk:** 2.1321
+
+Machine 3 is highly capable and maintains excellent stability at the requested parameters.
+:::
+::: {.column width='60%'}
+<iframe data-src='media/plots/m3_ctrl.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
