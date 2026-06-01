@@ -1,3 +1,3 @@
 ```r
-# ggplot2 Capability Construction
+# Professional Quality Chart Construction
 ```
